@@ -1,0 +1,12 @@
+$myColor: #19D3DA;
+$textColor: #FC00FF;
+header {
+    background-color: $myColor;
+    h1 {
+        font-size: 3rem;    
+    }
+
+    p {
+        color: $textColor;
+    }
+}
