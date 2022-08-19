@@ -1,0 +1,8 @@
+HTML : Hypertext Markup Language
+
+- Merupakan bahasa markup / bukan bahasa pemrograman
+- Ditemukan oleh Tim Berners - Lee
+- Tim Berners - Lee juga menemukan hal lain seperti HTTP, HTML, WWW, Web Browser, Web Server & Web Page
+- Distandari oleh W3C (World Wide Web Consortium - w3.org/Consortium)
+- Website Evolusi Web (evolutionoftheweb.com)
+- HTML : untuk membuat struktur suatu halaman (kerangka), CSS : menghias (baju / aksesoris), JS : interaktivitas (otak)
