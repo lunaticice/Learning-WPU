@@ -1,0 +1,65 @@
+bagian <head>
+
+- Judul Halaman
+<title></title>
+
+- CSS
+<style></style>
+
+- JS
+<script></script>
+
+- Metadata : Untuk mendeskripsikan web
+<meta></meta>
+
+Contoh implementasi metadata
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Dasar Tutorial>
+  <meta name="keywords" content="HTML,CSS,Javascript">
+  <meta name="author" content="Hengki Pranoto">
+</head>
+
+bagian <body>
+
+- Teks
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, ...
+
+- Pendukung Teks
+<br>, <hr>, <em>, <strong>, ...
+
+- Gambar
+<img>
+
+- Hyperlink
+<a>
+
+- List (Bullets & Numbering)
+<ul>, <ol>, <li>, <dl>, <dt>, <dd>
+
+- Tabel
+<table>, <thead>, <tbody>
+
+- Form
+<form>, <input>, <select>, <button>
+
+- Script
+<script>
+
+- Object
+<object>
+
+- Grouping
+<div>, <span>
+
+- Komentar
+<!-- ini adalah komentar -->
+
+Format Tag HTML : <namatag atribut="nilai">
+Example :
+<body bgcolor="lightblue">
+<body bgcolor="lightblue" id="myid" class="myclass">
+
+Attribute HTML : accesskey (menentukan elemen dapat diakses dengan keyboard / shortcut), class, id, dir (menentukan arah tulisan), lang (language), style, tabindex (menentukan urutan pada tab / form), title
+
+List Attribute HTML : w3school.com/Tags
