@@ -1,0 +1,22 @@
+- Inheritance : Sebuah elemen mewarisi beberapa nilai dari properti yang dimiliki oleh elemen parent-nya
+
+- Properti yang diwariskan :
+* color
+* font
+* letter-spacing
+* line-height
+* list-style
+* text-align
+* text-indent
+* text-transform
+* visibility
+* white-space
+
+- Sebagai contoh jika menerapkan sebagai berikut :
+body {
+  color: darkgrey;
+}
+
+Seluruh elemen akan menjadi abu-abu kecuali link / tag <a> karena by default tag tersebut tidak mewarisi color, agar dapat mewarisi property color dapat diberikan property sebagai berikut :
+
+a { color: inherit; }
