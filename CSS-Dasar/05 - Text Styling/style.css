@@ -1,0 +1,15 @@
+h1 {
+  font-size: 48px;
+  color: #19d3da;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+}

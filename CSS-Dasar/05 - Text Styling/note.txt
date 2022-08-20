@@ -1,0 +1,16 @@
+Text Styling :
+- color : memberi warna pada tulisan
+- text-align : mengatur format paragraf / teks
+- text-indent : memberi indentasi pada paragraf / teks
+- text-decoration : mengatur dekorasi pada teks
+- text-transform : mengubah jenis huruf menjadi huruf besar, kecil / kapital
+- letter-spacing : mengatur spasi antar huruf
+- word-spacing : mengatur spasi antar kata
+
+Color : Nama warna (red, green, blue), Hex (#19d3da, #fc00ff), RGB (rgb(255,0,0))
+
+Text Align : left,right,center,justify
+
+Text Decoration : none, underline, overline, line-through
+
+Text Transform : none, lowercase, uppercase, capitalize
