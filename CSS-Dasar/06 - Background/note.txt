@@ -1,0 +1,16 @@
+- Background :
+* background-color : memberi warna pada background
+* background-image : mengatur gambar yang akan digunakan pada background
+* background-position : mengatur posisi gambar pada background
+* background-repeat : mengatur jenis pengulangan gambar pada background
+
+referensi gambar yang berpola : subtlepatterns.com
+
+Background Color : Color Name, Hex, RGB
+
+Background Position : top left, top center, top right, center left, center center, center right, bottom left, bottom center, bottom right, x%, y%, x-pos y-pos
+
+Background Repeat : repeat, repeat-x, repeat-y, no-repeat
+
+Shorthand : background: color url() position repeat;
+Example : background: lightgreen url(bg.png) top left no-repeat;
