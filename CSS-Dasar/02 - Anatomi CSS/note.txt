@@ -1,0 +1,5 @@
+selector { property: value; }
+
+- Selector : digunakan untuk memilih dan memanipulasi elemen spesifik pada HTML. Elemen HTML dipilih berdasarkan tag, id, class bahkan pola / pattern. Semakin kompleks struktur HTMl, selector juga bisa semakin kompleks / spesifik.
+
+- Property & Value : developer.mozila.org/en-US/docs/Web/CSS/Reference, css-tricks.com/almanac
