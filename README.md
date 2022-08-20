@@ -2,7 +2,8 @@
  Everything learned on Web Programming UNPAS YouTube Channel
 
 # In Progress Learning
-- HTML Dasar
+- CSS Dasar
 - SASS
 
 # Done Learning
+- HTML Dasar
