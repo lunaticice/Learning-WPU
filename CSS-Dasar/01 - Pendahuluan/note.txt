@@ -1,0 +1,11 @@
+CSS - Cascading Style Sheet (mekanisme sederhana yang mengatur gaya / style - warna, ukuran posisi, dll pada halaman web)
+
+- Aturan yang digunakan untuk menampilkan elemen / tag HTML
+
+- Dibuat terpisah dengan HTML
+
+- Bertujuan untuk memisahkan konten dan style
+
+- 1 CSS dapat digunakan untuk banyak halaman HTML
+
+- 1 halaman HTML dapat terlihat berbeda jika menggunakan CSS yang berbeda pula (csszengarden.com)
