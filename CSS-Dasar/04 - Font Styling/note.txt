@@ -1,0 +1,19 @@
+- Font :
+* font-family : mengatur jenis font yang digunakan
+* font-size : mengatur ukuran font
+* font-weight : mengatur ketebalan font
+* font-variant : mengubah font menjadi small caps
+* font-style : mengubah style font
+* line-height : mengubah jarak antar baris
+
+- font-family :
+body {
+  font-family: arial, verdana, sans-serif;
+}
+
+- Font Value Shorthand : font-style, font-variant, font-weight, font-size, line-height, font-family
+Example :
+body {
+  font: italic normal bold 16px/18px helvetica,arial,sans-serif;
+}
+
