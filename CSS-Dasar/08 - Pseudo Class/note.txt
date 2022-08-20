@@ -1,0 +1,14 @@
+Pseudo Class : kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari elemen tersebut
+
+- Pseudo Class Link :
+* :link : style default pada sebuah link
+* :hover : style ketika kursor mouse berada diatas link / elemen
+* :active : style ketika link di klik
+* :visited : style ketika link sudah pernah dikunjungi
+
+- Pseudo Class Posisi Elemen :
+* :first-child : memilih elemen pertama dari sebuah parent
+* :last-child : memilih elemen terakhir dari sebuah parent
+* :nth-child(n) : memilih elemen ke-n dari sebuah parent n dapat berupa pola misal 2n+1 atau even / odd
+* :first-of-type : elemen yang pertama kali ditemukan
+* :last-of-type : elemen yang terakhir kali ditemukan

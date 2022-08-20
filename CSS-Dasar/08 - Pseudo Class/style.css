@@ -1,0 +1,35 @@
+.hello:visited {
+  color: orange;
+}
+
+.hello:hover {
+  color: #19d3da;
+}
+
+.hello:active {
+  color: #fc00ff;
+}
+
+li:nth-child(odd) a {
+  color: blue;
+}
+
+li:nth-child(even) a {
+  color: yellow;
+}
+
+li:first-child a {
+  color: green;
+}
+
+li:last-child a {
+  color: pink;
+}
+
+p:first-of-type {
+  color: orange;
+}
+
+p:last-of-type {
+  color: green;
+}
