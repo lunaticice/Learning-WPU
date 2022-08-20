@@ -1,0 +1,6 @@
+- id :
+* Sebuah elemen HTML hanya boleh memiliki 1 id
+* Setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut
+* Dapat digunakan sebagai penanda halaman untuk link
+* Digunakan juga untuk javascript
+* Sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)
