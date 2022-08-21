@@ -1,0 +1,5 @@
+- Specificity : Setiap deklarasi css (selector) memiliki berat yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.
+
+- Value of Specificity : 0 0 0 0 (inline id class element)
+
+- Specificity Calculator : https://specificity.keegan.st
