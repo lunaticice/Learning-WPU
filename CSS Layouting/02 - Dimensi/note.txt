@@ -1,0 +1,2 @@
+- Dimensi : width & height (px & %)
+- Overflow : visible, auto, hidden, scroll
