@@ -1,0 +1,29 @@
+tag pada HTML digunakan  untuk memberikan maksud / arti pada sebuah konten (p untuk paragraf, h1 untuk heading utama, dll)
+
+Tag <div> dan <span> tidak memiliki 'arti' apapun, keduanya digunakan untuk mengelompokkan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut.
+
+Display default untuk tag div adalah block, sedangkan span adalah inline.
+
+Setiap tag pada HTML berada di dalam sebuah kotak. Properti display pada CSS mengatur perilaku dari kotak tersebut (css-tricks.com/almanac/properties/d/display)
+
+Setiap tag pada HTML memiliki nilai default untuk properti display. Tetapi kita juga dapat mengubah perilaku dari tag tersebut dengan mengganti value-nya. (developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+Display : inline, inline-block, block, none
+
+Inline :
+- Elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat
+- Lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+- Kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+- Margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal
+- List inline tag : b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea
+
+Inline-Block :
+- Tidak ada elemen yang secara default memiliki properti display: inline-block
+- Kita harus ubah secara manual properti tersebut
+- Perilaku dasarnya sama dengan elemen inline
+- Perbedaannya, elemen inline-blok dapat kita atur tinggi dan lebarnya
+
+Block :
+- Elemen HTML yang secara default menambahkan baris baru ketika dibuat
+- Jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser / parent-nya
+- List block tag : h1-h6, p, ol, ul, li, form, hr, div
