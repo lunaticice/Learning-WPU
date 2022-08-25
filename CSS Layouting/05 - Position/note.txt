@@ -1,0 +1,27 @@
+- Position : untuk mengatur posisi pada CSS
+
+- Property position : static, relative, absolute, fixed\
+
+- Static :
+* Static adalah nilai default dari tiap-tiap elemen ketika tidak diberi properti position
+* Menggunakan position selain static (non-static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya
+* Elemen yang diberi position selain static tidak dapat menggunakan properti top, left, bottom, dan right untuk mengatur posisinya
+
+- Relative
+* Ketika kita menggerakkan elemen dengan posisi relative (menggunakan properti top, left, bottom, dan right), ruang yang ditempati oleh elemen tersebut masih ada
+* Ketika kita menggerakkan elemen dengan posisi relative, elemen akan bergerak relatif terhadap posisi semula-nya
+* Jika kita memberi properti top: 0; dan left: 0; maka elemen tidak berubah posisinya
+
+- Absolute
+* Ketika kita menggerakkan elemen dengan posisi absolute (menggunakan properti top, left, bottom, dan right), ruang yang ditempati oleh elemen tersebut dianggap tidak ada
+* Ketika kita menggerakkan elemen dengan posisi absolute, elemen  akan bergerak relatif terhadap posisi dari elemen parent-nya, selama elemen parent-nya memeiliki posisi yang juga non-static
+
+- Fixed
+* Posisi relatif terhadap window
+
+- Z-Index
+* Mengatur layer / dimensi sebuah elemen
+
+- Alternatif Penggunaan Position :
+* Jika menggunakan left 0 & right 0 maka elemen tersebut seperti ditarik (width 100%) berlaku juga pada top & bottom
+
