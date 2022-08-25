@@ -2,9 +2,10 @@
  Everything learned on Web Programming UNPAS YouTube Channel
 
 # In Progress Learning
-- CSS Layouting
+- CSS3
 - SASS
 
 # Done Learning
 - HTML Dasar
 - CSS Dasar
+- CSS Layouting
