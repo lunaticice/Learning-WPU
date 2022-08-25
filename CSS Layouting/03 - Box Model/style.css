@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Style */
+body {
+  font: 16px/28px arial, sans-serif;
+  background-image: url(img/bg.webp);
+  color: #333;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: #19d3da;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: orange;
+  color: #fc00ff;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -75px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -4px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: #19d3da;
+}
+
+.content .penulis a:hover {
+  color: #fc00ff;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}

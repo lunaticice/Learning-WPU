@@ -1,0 +1,42 @@
+- Setiap elemen di halaman berada di dalam sebuah box
+- Kita bisa mengatur ukuran dan posisi kotak tersebut
+- Kita bisa memberi warna / gambar sebagai background kotak tersebut
+- css-tricks.com/the-css-box-model
+- CSS box model mendefinisikan 'kotak' yang dihasilkan oleh sebuah elemen, lalu menampilkannya sesuai dengan format visualnya.
+- CSS box model terdiri dari margin, border, padding, dan content.
+
+Properti untuk margin, padding & border
+- margin/padding/border-top
+- margin/padding/border-right
+- margin/padding/border-bottom
+- margin/padding/border-left
+- margin/padding/border
+
+Margin/Padding/Border Shorthand :
+- 1 Value (4 direction)
+- 2 Value (vertical, horizontal)
+- 3 Value (top, horizontal, bottom)
+- 4 Value (top, right, bottom, left)
+
+Margin :
+- Margin dapat overlapping secara horizontal
+- Margin dapat diberikan nilai negatif
+- Margin dapat diberikan nilai auto
+
+Padding :
+- Padding tidak dapat diberikan nilai negatif
+- Padding tidak dapat dibertikan nilai auto
+
+Border :
+- Terdapat 3 value (width, style[solid,dashed,dotted,double], color)
+
+Box Sizing :
+- Agar tidak perlu mengkalkulasi ulang dimensi box
+- Contoh implementasi (box-sizing : border-box)
+
+CSS Reset :
+- meyerweb.com
+
+Web Untuk Gambar :
+- unsplash.com
+- subtlepatterns.com
