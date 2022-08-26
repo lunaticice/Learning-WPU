@@ -1,0 +1,25 @@
+- Kenapa CSS3
+* Membuat website menjadi lebih fleksibel
+* Membuat mock-up dengan cepat tanpa bantuan bahasa scripting
+* Mengurangi penggunaan gambar = kecepatan load halaman
+* Penggunaan selector untuk menghindari penggunaan markup yang boros
+
+- Property CSS3 : quackit.com/css/css3/properties
+* border-radius
+* opacity
+* RGBa & HSLa
+* box-sizing
+* box-shadow
+* text-shadow
+* CSS gradient
+* background
+* pseudo-element
+* selector lanjut
+* webfont
+* media queries
+* transform (2D & 3D)
+* CSS transition
+* CSS animation
+* CSS Filter
+* FlexBox
+* CSS columns
