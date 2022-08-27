@@ -1,0 +1,14 @@
+div {
+  width: 300px;
+  height: 300px;
+  border-style: cover;
+  border-radius: 0 50% 50% 50%;
+  background-color: salmon;
+  text-align: center;
+  line-height: 300px;
+  overflow: hidden;
+}
+
+div img {
+  width: 300px;
+}

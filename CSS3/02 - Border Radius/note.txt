@@ -1,0 +1,1 @@
+- Jika border radius = 1/2 width akan membentuk lingkaran / 50%
