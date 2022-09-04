@@ -1,0 +1,10 @@
+- Linear Gradient : bukan property css3, melainkan value untuk background image
+- Background Image / Background : linear-gradient(start-color, end-color), multiple color is applicable too
+- For direction use this syntax : linear-gradient(angle | direction, start-color, end-color)
+- Angle : ... deg
+- Direction : to bottom, to top, to left, to right, to left top, to left bottom, to right top, to right bottom
+- You can also put color stop after the hex code using %
+- There are other alternatives to gradients which is radial gradient
+- Full syntax of radial gradient : radial-gradient(tipe jangkauan at posisi-y posisi-x, warna-1, ..., warna-n)
+- Tipe : ellipse | circle
+- jangkauan : closest-corner, closest-side, farthest-corner, farthest-side
