@@ -1,0 +1,18 @@
+- Font face properties : font-family
+- Syntax : font-family: "Arial Narrows",arial, sans-serif;
+- Can use google fonts : fonts.google.com
+- Font face implementation :
+@font-face {
+  @font-family: 'namaFontBaru';
+  src: url('lokasi/file/fontBaru.eot);
+  src: url('lokasi/file/fontBaru.eot?#iefix) format('embedded-opentype'),
+       url('lokasi/file/fontBaru.woff2) format('woff2'),
+       url('lokasi/file/fontBaru.woff) format('woff'),
+       url('lokasi/file/fontBaru.ttf) format('truetype'),
+       url('lokasi/file/fontBaru.svg#svgFontName) format('svg'),
+}
+- Other place to download fonts :
+* fontsquirell.com
+* fontspring.com
+* webtype.com
+* typotheque.com
