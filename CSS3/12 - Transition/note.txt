@@ -1,0 +1,8 @@
+- Properti transition memungkinkan kita dapat mengubah nilai dari property HTML secara halus
+- Syntax : transition: [property] <durasi> [fungsi] [delay];
+- Durasi : s/ms
+- Property : Berapa banyak property yang ingin dikenai transisi (all / spesifik property)
+- Animatable properties : background-color, background-position, background-size, border, color, filter, font-size, line-height, top left bottom right, margin padding, width height, opacity, transform, word-spacing, letter-spacing
+- Non Animatable properties : font-family, display, position
+- Fungsi (timing function): ease, ease-in, ease-out, ease-in-out, linear, cubic-bezier(w,x,y,z)
+- Delay: s/ms 
