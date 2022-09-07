@@ -16,3 +16,14 @@
 * fontspring.com
 * webtype.com
 * typotheque.com
+
+- Tipe font yang direkomendasikan adalah .woff karena :
+* Web Open File Format
+* Dikembangkan oleh Mozilla
+* Dibuat khusus untuk website
+* Di-load lebih cepat daripada jenis font yang lain
+* Merupakan kompresi dari tipe TTF / OTF
+
+- Mengubah font .ttf / .otf menjadi .woff dapat menggunakan webfont generator yang tersedia pada layanan web penyedia font
+
+- Jika ingin mendownload langsung webfont kit dapat juga langsung didownload pada layanan web penyedia font jika tersedia
