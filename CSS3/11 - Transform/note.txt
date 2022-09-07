@@ -1,0 +1,4 @@
+- Properti transform memungkinkan kita memanipulasi format visual dari elemen HTML
+- Transformasi 2D & 3D
+- Syntax : transform: <fungsi>
+- Fungsi : scale, rotate, skew, translate

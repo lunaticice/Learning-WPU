@@ -1,0 +1,16 @@
+p {
+  font-style: 20px;
+  text-align: center;
+}
+
+.kotak {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 50px auto 0;
+  transition: 1s;
+}
+
+.kotak:hover {
+  transform: scale(3) rotate(360deg);
+}
