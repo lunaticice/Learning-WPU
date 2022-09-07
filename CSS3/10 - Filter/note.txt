@@ -1,0 +1,4 @@
+- Properti css3 yang digunakan untuk memberikan efek visual pada gambar, background atau border.
+- Syntax : filter: <tipe-filter>;
+- Tipe filter : blur, brightness, contrast, saturate, grayscale, sepia, hue-rotate, invert, opacity, drop-shadow
+- Test filter : http://html5-demos.appspot.com/static/css/filters/index.html
