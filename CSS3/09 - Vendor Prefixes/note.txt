@@ -1,0 +1,16 @@
+- Sintaks khusus yang harus ditambahkan untuk beberapa property CSS3
+- Sintaks spesifik untuk tiap browser / vendor
+
+- Vendor prefixes :
+* -webkit-<properti-css3> (Chrome, Safari, Latest Opera)
+* -moz-<properti-css3> (Firefox)
+* -ms-<properti-css3> (IE)
+* -o-<properti-css3> (Deprecated Opera)
+
+- Karena tidak semua browser support property terbaru CSS3
+
+- Cara mengecek kebutuhan vendor prefixes :
+* shouldiprefix.com
+* caniuse.com
+* pleeease.io/play
+* emmet
