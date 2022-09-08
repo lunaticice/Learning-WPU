@@ -1,0 +1,19 @@
+@keyframes [name] {
+  from {
+    [property-css]
+  }
+
+  to {
+    [property-css]
+  }
+}
+
+- Syntax : animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]
+
+- Iteration count : <number> | infinite
+
+- Direction : normal, reverse, alternate, alternate-reverse
+
+- Fill mode : none, forwards, backwards, both
+
+- Play state : running, paused
