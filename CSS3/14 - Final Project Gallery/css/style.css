@@ -1,0 +1,179 @@
+/* Font */
+@font-face {
+  font-family: "Genshin";
+  src: url(../fonts/Genshin.ttf) format("truetype");
+}
+
+/* Style */
+body {
+  font: 12px/24px "Genshin";
+  background-image: url(../img/bg/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 50px 0;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(25, 211, 218, 0.5);
+}
+
+.container {
+  width: 600px;
+  background-color: rgba(25, 211, 218, 0.7);
+  margin: auto;
+  padding: 25px;
+  box-shadow: 0 0 5px 5px rgba(252, 0, 255, 0.3);
+  border-radius: 20px;
+}
+
+.gallery li {
+  width: 106px;
+  height: 106px;
+  border: 5px solid #fc00ff;
+  float: left;
+  overflow: hidden;
+  margin-right: 34px;
+  position: relative;
+}
+
+.gallery li,
+.gallery li img,
+.gallery li span {
+  border-radius: 50%;
+}
+
+.gallery li span {
+  display: block;
+  width: 106px;
+  height: 106px;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 106px;
+  color: #333;
+  text-shadow: 1px 1px 1px #ddd;
+  opacity: 0;
+  transform: scale(0) rotate(0);
+  transition: 300ms;
+}
+
+.gallery li a:hover span {
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+}
+
+.clear {
+  clear: both;
+}
+
+/* overlay */
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  transition: 500ms;
+  padding: 100px;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.overlay img {
+  max-height: 100%;
+  text-align: center;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.overlay:target img {
+  animation: fadeOnly 1s;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 50px;
+  left: 80%;
+  color: white;
+  text-decoration: none;
+  background-color: #19d3da;
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+  opacity: 0;
+}
+
+.overlay:target .close {
+  animation: slideDownFade 500ms 500ms forwards;
+}
+
+.overlay:target .next,
+.overlay:target .prev {
+  animation: fadeOnly 500ms 500ms forwards;
+}
+
+/* Navigation */
+.next,
+.prev {
+  width: 45px;
+  height: 64px;
+  background-image: url(../img/nav/next.png);
+  position: absolute;
+  text-indent: -9999px;
+  top: 40%;
+  margin-left: 50px;
+  opacity: 0;
+}
+
+.prev {
+  background-image: url(../img/nav/prev.png);
+  margin-left: -100px;
+}
+
+/* Animation */
+@keyframes zoomAndFade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes fadeOnly {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
