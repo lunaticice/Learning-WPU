@@ -1,0 +1,4 @@
+- Nilai dan satuan pada CSS
+- Jenis nilai : integer, number, percentage, dimension (nilai + satuan)
+- Dimension : length, angle(deg/rad/grad/turn), time(s/ms), resolution(dpi/dpcm/dppx)
+- Length : absolute(px/pt/pc/cm/mm/in), relative(%/em/rem/ch/vh/vw/vmin/vmax)
