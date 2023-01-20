@@ -1,0 +1,4 @@
+- em default size : 16px
+- em relatif terhadap parent element
+- rem relatif terhadap root element
+- length (width, height, margin, padding) pada em mengikuti elemen jika font size di set
