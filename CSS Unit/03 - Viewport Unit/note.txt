@@ -1,0 +1,4 @@
+- vh : relatif terhadap tinggi dari viewport
+- vw : relatif terhadap lebar dari viewport
+- vmin : relatif terhadap dimensi terkecil sebuah viewport
+- vmax : relatif terhadap dimensi terbesar sebuah viewport
