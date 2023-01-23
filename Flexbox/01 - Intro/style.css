@@ -1,0 +1,23 @@
+.container {
+  width: 600px;
+  height: 150px;
+  border: 5px solid #333;
+  margin: 30px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+}
+
+.container div {
+  background-color: lightblue;
+  margin: 2px;
+  flex: 1;
+}
+
+.container div.dua {
+  flex: 2;
+  align-self: center;
+}
