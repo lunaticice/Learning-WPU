@@ -1,0 +1,46 @@
+- Function : Sebuah sub-program / sub-routine yang dapaet dipanggil di bagian lain pada program, struktur dasar pembentuk dari javascript, disebut juga sebagai prosedur (kumpulan statement untuk melakukan tugas / menghitung sebuah nilai), untuk dapat menggunakannya, harus dibuat dan dipanggil.
+
+- Kenapa Function ?
+* Reusability / DRY
+* Dekomposisi / Abstraksi
+* Modularitas
+
+- Kategori Function :
+* Built-in Function (alert, confirm, prompt, string(charAt, slice, split, toString, toLowerCase, toUpperCase) Math(sin, cos, tan, random, round, floor, ceil, log)
+* User-defined Function (fungsi yang kita buat sendiri, bisa diberikan parameter, nama function optional, dapat diberikan nilai balik / tidak)
+
+- Refactoring : sebuah proses mengubah kode agar menjadi lebih 'baik' tanpa mengubah fungsionalitasnya
+
+- Kenapa refactoring ?
+* Readability
+* DRY (Don't Repeat Yourself)
+* Testability
+* Performance
+* Maintainability
+
+- Varible scope :
+* Global scope / window scope : (variable dapat diakses dengan class Window, contoh var test, dapat diakses dengan Window.test)
+* Local scope / block scope / function scope : pembatasan scope var dapat dicegah dengan "use strict"
+
+- Rekursif : sebuah fungsi yang memanggil dirinya sendiri
+
+- Base Case : kondisi akhir dari suatu fungsi rekursif
+
+- Implementasi Rekursif :
+* Menggantikan looping
+* Fibonacci
+* Pencarian dan penelusuran pada struktur data list dan tree
+* Bahasa pemrograman yang tidak memiliki pengulangan (Haskell, Erlang, Prolog)
+
+- Function expression : Function yang boleh tidak memiliki nama, lawan nya adalah function declaration (harus mempunyai nama)
+
+- Function declaration :
+* Lebih fleksibel (dapat ditulis sebelum / sesudah dipanggil - Hoisting)
+* Mudah dipahami pemula
+
+- Function expression :
+* Harus didefinisikan terlebih dahulu sebelum dipanggil
+* Lebih powerful :
+  > Sebagai closure
+  > Sebagai argumen untuk function lain
+  > IIFE (Immediately Invoked Function Expression)
