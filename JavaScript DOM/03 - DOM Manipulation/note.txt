@@ -1,0 +1,19 @@
+- Manipulasi Element :
+* element.innerHTML
+* element.style.<property>
+* element.setAttribute(bisa juga getAttribute dan removeAttribute)
+* element.classList(add,remove,toggle,item,contains,replace)
+
+- Manipulasi Node :
+* document.createElement
+* document.createTextNode
+* node.appendChild
+* node.insertBefore
+* parentNode.removeChild
+* parentNode.replaceChild
+* parentNode.append
+* parentNode.prepend
+* childNode.before
+* childNode.after
+* childNode.remove
+* childNode.replaceWith
