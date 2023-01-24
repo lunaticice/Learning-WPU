@@ -1,0 +1,11 @@
+- JavaScript : high-level, scripting, untyped, and interpreted programming language
+
+- Aplikasi : 
+* Client-side web development(Vanilla JS, JQuery, JS Framework)
+* Server-side development (NodeJS, ExpressJS)
+* Browser extension / Add-on
+* Desktop application (Electron, AppJS)
+* Mobile App Development (JQuery Mobile, Cordova / PhoneGap)
+* IoT & Robotics (CyclonJS, Johnny-Five)
+* JSON
+

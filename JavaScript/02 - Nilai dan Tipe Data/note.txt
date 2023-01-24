@@ -1,0 +1,7 @@
+- Tipe Data : number, string, boolean, object, function, undefined
+- Angka : double precision 64-bit floating point
+- Jenis Angka : prefix 0 (oktal), prefix 0x (hexadecimal), Infinity, -Infinity, NaN
+- Operator : aritmatika, penugasan, perbandingan, logika, string, kondisional, typeof
+- Escape character : \0, \', \", \\, \n, \t, \b, \uXXXX(unicode)
+- String built-in function : length
+- Boolean : true | false, non-zero number | 0, "string" | "", object | undefined, arrays | null, functions | NaN
