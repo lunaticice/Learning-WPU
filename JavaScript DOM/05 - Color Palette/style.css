@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+button {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.kotak {
+  width: 25px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.merah {
+  background-color: red;
+}
+
+.hijau {
+  background-color: green;
+}
+
+.biru {
+  background-color: blue;
+}
