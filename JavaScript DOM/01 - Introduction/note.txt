@@ -1,0 +1,28 @@
+- DOM : antarmuka pemrograman untuk HTML yang merepresentasikan halaman web, sehingga program dapat mengubah dan memanipulasi strukturnya / representasi elemen HTML pada dokumen menjadi sebuah object, DOM membuat seluruh komponen dari halaman web dapat diakses & dimanipulasi (elemen HTML, atribut, text, dll)
+
+- DOM global (window) :
+* document
+* history
+* location
+
+- DOM tree : elemennya disebut dengan node
+* elemen
+* attribute
+* text
+* cdata section
+* entity reference
+* entity
+* processing instruction
+* comment
+* document
+* document type
+* document fragment
+* notation
+
+- NodeList : kumpulan node
+- HTML Collection : kumpulan node khusus elemen
+
+- Struktur DOM tree:
+* root node (document, sumber node)
+* parent node (node yang tingkatannya 1 tingkat diatas node lain, h1, p, div, a)
+* child node (node yang tingkatannya 1 tingkat dibawah node lain, h1 child dari body, children (child node yang bertipe elemen HTML), sibling (child node dengan parent yang sama))
