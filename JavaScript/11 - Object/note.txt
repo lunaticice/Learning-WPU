@@ -1,0 +1,16 @@
+- object : kumpulan nilai, yang memiliki nama
+
+- object dalam bahasa pemrograman lain :
+* PHP : associative array
+* Python : dictionaries
+* C : hash tables
+* Java : hash maps
+* Ruby & Perl : hashes
+
+- pembuatan object :
+* Object Literal
+* Function Declaration
+* Constructor Function (keyword new)
+* Object.create()
+
+- this : keyword spesial yang didefinisikan setiap pembuatan function, this mengembalikan objek global pada function declaration, this mengembalikan objek yang bersangkutan pada objek literal / Constructor (bedanya kalau di constructor object yang baru dibuat)
