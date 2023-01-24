@@ -1,0 +1,28 @@
+- Array : susunan sistematis dari objek" yang serupa / tipe data yang digunakan untuk mendeskripsikan kumpulan elemen (nilai / variabel), yang tiap elemennya memiliki index.
+
+- Kenapa array ?
+* Mempermudah pengelolaan nilai / value / data (penelusuran dan pencarian)
+* Manajemen memori
+
+- Array ?
+* variabel jamak yang mempunyai banyak elemen dan diacu dengan nama yang sama
+* Kumpulan pasangan key dan nilai
+* Key adalah adalah index pada array dengan tipe integer yang dimulai dari 0
+* Array pada JS bertipe object
+* Array pada JS memiliki method length
+* Elemen pada array boleh memiliki tipe data yang berbeda
+
+- Array method :
+* length
+* join (mengubah array menjadi string dengan separator)
+* push
+* pop
+* shift (menghilangkan array di elemen pertama)
+* unshift (menambah array di elemen pertama)
+* slice (mengambil elemen array)
+* splice (menyisipkan elemen array)
+* foreach (foreach tidak mengembalikan array jadi jika ingin dimanipulasi gunakan map)
+* map 
+* sort
+* filter
+* find (hanya mengembalikan 1 nilai)
