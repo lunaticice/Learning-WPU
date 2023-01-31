@@ -1,0 +1,8 @@
+- Hoisting : mengangkat / mengerek variabel dan diisi dengan nilai undefined
+- var mengimplementasikan hoisting, sehingga nilai variabel yang belum diassign by default akan undefined, scope nya bersifat global, kecuali di dalam function / IIFE / SIAF, karena by default JS mengimplementasikan function scope
+- let tidak mengimplementasikan hoisting, sehingga jika belum di assign akan error, scope nya bersifat local / block
+- IIFE : Immediately Invoked Function Expression
+- SIAF : Self Invoking Anonymous Function
+
+- let dan const mengimplementasikan block scope
+- const memungkinkan untuk nilai variabel bernilai konstan / tidak dapat berubah lagi
