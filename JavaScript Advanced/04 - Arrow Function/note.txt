@@ -1,0 +1,1 @@
+- Arrow Function : Bentuk lain yang lebih ringkas dari function expression
