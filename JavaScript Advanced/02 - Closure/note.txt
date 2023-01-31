@@ -1,0 +1,14 @@
+- Fase Execution Context :
+* Creation
+* Execution
+
+- Scope :
+* Local
+* Arguments
+* Global
+
+- Closure : kombinasi antar function dan lexical scope di dalam function tersebut | sebuah function ketika memiliki akses ke parent scopenya, meskipun parent scope-nya sudah selesai dieksekusi | sebuah function dikembalikan oleh function yang lain, yang memiliki akses ke lingkungan saat ia diciptakan | sebuah function yang sebelumnya sudah memiliki data, hasil dari function yang lain
+
+- Kenapa Closure :
+* Untuk membuat function factories
+* Untuk membuat private method
