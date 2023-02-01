@@ -1,0 +1,16 @@
+- Template Literal : string literal yang memungkinkan adanya expression di dalamnya.
+
+- Template Literal :
+* Menggunakan ``
+* Multi-line String
+* Embedded Expression
+* HTML Fragments
+* Expression Interpolation
+* Tagged Template
+
+- Tagged Templates : Bentuk yang lebih kompleks dari template literals, memungkinkan kita untuk membaca template literals melalui sebuah function.
+
+- Implementasi Tagged Templates :
+* Escaping HTML Tags
+* Translation & Internationalization
+* Styled Components
