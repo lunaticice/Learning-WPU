@@ -1,0 +1,15 @@
+-Higher Order Function : Function yang beroperasi pada function yang lain, baik digunakan dalam argument, atau sebagai return value
+
+- JS dikenal sebagai first class function
+
+- JS memperlakukan function sebagai object
+
+- Function yang disimpan sebagai argument disebut juga callback
+
+- Function yang memiliki callback disebut sebagai higher order function
+
+- Semakin besar sebuah program, semakin tinggi kompleksitasnya, semakin membingungkan programmernya, solusinya dengan abstraksi
+
+- Ada dua cara untuk merancang sebuah software (anekdot):
+* Membuat program sesederhana mungkin sehingga jelas-jelas tidak ada kekurangannya
+* Membuat program sekompleks mungkin sehingga tidak ada kekurangan yang jelas
