@@ -4,9 +4,13 @@
 # In Progress Learning
 
 - SASS
+- JavaScript Advanced
 
 # Done Learning
 - HTML Dasar
 - CSS Dasar
 - CSS Layouting
 - CSS3
+- Flexbox
+- JavaScript Dasar
+- JavaScript DOM
