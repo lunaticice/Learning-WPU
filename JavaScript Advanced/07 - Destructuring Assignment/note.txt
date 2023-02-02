@@ -1,0 +1,1 @@
+- Destructuring assignment : Expression pada JS yang membuat kita dapat membongkar nilai dari array atau properti dari object kedalam variabel yang terpisah
