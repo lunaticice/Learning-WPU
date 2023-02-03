@@ -1,0 +1,19 @@
+- Asynchronous JS :
+* Callback
+* Promise
+* ajax
+* Async & Await
+
+- Javascript : Is a single-threaded, non-blocking, asynchrounous, and concurrent language.
+
+- Thread : Urutan eksekusi kode yang dapat dilakukan secara bebas / independent satu sama lain
+
+- Concurrency : Asynchronous + Single threaded
+
+- Parallelism : Asynchronous + Multi related
+
+- Javascript V8 Engine : Heap (memory allocation), Stack (Function call & Execution Context)
+
+https://latenflip.com/loupe
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
