@@ -1,0 +1,3 @@
+- Spread Operator : Memecah (expand / unpack) iterables menjadi single element
+
+- Rest Parameter : Merepresentasikan argument pada function dengan jumlah yang tidak terbatas menjadi sebuah array
