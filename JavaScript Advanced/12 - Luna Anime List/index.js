@@ -30,34 +30,75 @@
 // });
 
 // Fetch
-const searchButton = document.querySelector('.search-button');
-searchButton.addEventListener('click', function () {
-  const inputKeyword = document.querySelector('.input-keyword');
-  fetch('https://api.jikan.moe/v4/anime?q=' + inputKeyword.value)
-    .then((response) => response.json())
-    .then((response) => {
-      const animes = response.data;
-      let cards = '';
-      animes.forEach((anime) => (cards += showCards(anime)));
-      const animeContainer = document.querySelector('.anime-container');
-      animeContainer.innerHTML = cards;
+// const searchButton = document.querySelector('.search-button');
+// searchButton.addEventListener('click', function () {
+//   const inputKeyword = document.querySelector('.input-keyword');
+//   fetch('https://api.jikan.moe/v4/anime?q=' + inputKeyword.value)
+//     .then((response) => response.json())
+//     .then((response) => {
+//       const animes = response.data;
+//       let cards = '';
+//       animes.forEach((anime) => (cards += showCards(anime)));
+//       const animeContainer = document.querySelector('.anime-container');
+//       animeContainer.innerHTML = cards;
 
-      // Ketika tombol detail di-klik
-      const modalDetailButton = document.querySelectorAll('.modal-detail-button');
-      modalDetailButton.forEach((btn) => {
-        btn.addEventListener('click', function () {
-          const dataid = this.dataset.id;
-          fetch('https://api.jikan.moe/v4/anime/' + dataid + '/full')
-            .then((response) => response.json())
-            .then((anime) => {
-              const animeDetail = showAnimeDetail(anime);
-              const modalBody = document.querySelector('.modal-body');
-              modalBody.innerHTML = animeDetail;
-            });
-        });
-      });
-    });
+//       // Ketika tombol detail di-klik
+//       const modalDetailButton = document.querySelectorAll('.modal-detail-button');
+//       modalDetailButton.forEach((btn) => {
+//         btn.addEventListener('click', function () {
+//           const dataid = this.dataset.id;
+//           fetch('https://api.jikan.moe/v4/anime/' + dataid + '/full')
+//             .then((response) => response.json())
+//             .then((anime) => {
+//               const animeDetail = showAnimeDetail(anime);
+//               const modalBody = document.querySelector('.modal-body');
+//               modalBody.innerHTML = animeDetail;
+//             });
+//         });
+//       });
+//     });
+// });
+
+const searchButton = document.querySelector('.search-button');
+searchButton.addEventListener('click', async function () {
+  const inputKeyword = document.querySelector('.input-keyword');
+  const animes = await getAnimes(inputKeyword.value);
+  updateUI(animes);
 });
+
+// Event binding
+document.addEventListener('click', async function (e) {
+  if (e.target.classList.contains('modal-detail-button')) {
+    const dataid = e.target.dataset.id;
+    const animeDetail = await getAnimeDetail(dataid);
+    updateUIDetail(animeDetail);
+  }
+});
+
+function getAnimeDetail(dataid) {
+  return fetch('https://api.jikan.moe/v4/anime/' + dataid + '/full')
+    .then((response) => response.json())
+    .then((anime) => anime);
+}
+
+function updateUIDetail(anime) {
+  const animeDetail = showAnimeDetail(anime);
+  const modalBody = document.querySelector('.modal-body');
+  modalBody.innerHTML = animeDetail;
+}
+
+function getAnimes(keyword) {
+  return fetch('https://api.jikan.moe/v4/anime?q=' + keyword)
+    .then((response) => response.json())
+    .then((response) => response.data);
+}
+
+function updateUI(animes) {
+  let cards = '';
+  animes.forEach((anime) => (cards += showCards(anime)));
+  const animeContainer = document.querySelector('.anime-container');
+  animeContainer.innerHTML = cards;
+}
 
 function showCards(anime) {
   return `<div class="col-md-4 my-3">
