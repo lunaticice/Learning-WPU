@@ -1,32 +1,62 @@
-$('.search-button').on('click', function () {
-  $.ajax({
-    url: 'https://api.jikan.moe/v4/anime?q=' + $('.input-keyword').val(),
-    success: (results) => {
-      const animes = results.data;
-      let cards = '';
-      animes.forEach((anime) => {
-        cards += showCards(anime);
-      });
-      $('.anime-container').html(cards);
+// $('.search-button').on('click', function () {
+//   $.ajax({
+//     url: 'https://api.jikan.moe/v4/anime?q=' + $('.input-keyword').val(),
+//     success: (results) => {
+//       const animes = results.data;
+//       let cards = '';
+//       animes.forEach((anime) => {
+//         cards += showCards(anime);
+//       });
+//       $('.anime-container').html(cards);
 
-      // ketika tombol detail di-klik
-      $('.modal-detail-button').on('click', function () {
-        $.ajax({
-          url: 'https://api.jikan.moe/v4/anime/' + $(this).data('id') + '/full',
-          success: (anime) => {
-            const animeDetail = showAnimeDetail(anime);
-            $('.modal-body').html(animeDetail);
-          },
-          error: (e) => {
-            console.log(e.responseText);
-          },
+//       // ketika tombol detail di-klik
+//       $('.modal-detail-button').on('click', function () {
+//         $.ajax({
+//           url: 'https://api.jikan.moe/v4/anime/' + $(this).data('id') + '/full',
+//           success: (anime) => {
+//             const animeDetail = showAnimeDetail(anime);
+//             $('.modal-body').html(animeDetail);
+//           },
+//           error: (e) => {
+//             console.log(e.responseText);
+//           },
+//         });
+//       });
+//     },
+//     error: (e) => {
+//       console.log(e.responseText);
+//     },
+//   });
+// });
+
+// Fetch
+const searchButton = document.querySelector('.search-button');
+searchButton.addEventListener('click', function () {
+  const inputKeyword = document.querySelector('.input-keyword');
+  fetch('https://api.jikan.moe/v4/anime?q=' + inputKeyword.value)
+    .then((response) => response.json())
+    .then((response) => {
+      const animes = response.data;
+      let cards = '';
+      animes.forEach((anime) => (cards += showCards(anime)));
+      const animeContainer = document.querySelector('.anime-container');
+      animeContainer.innerHTML = cards;
+
+      // Ketika tombol detail di-klik
+      const modalDetailButton = document.querySelectorAll('.modal-detail-button');
+      modalDetailButton.forEach((btn) => {
+        btn.addEventListener('click', function () {
+          const dataid = this.dataset.id;
+          fetch('https://api.jikan.moe/v4/anime/' + dataid + '/full')
+            .then((response) => response.json())
+            .then((anime) => {
+              const animeDetail = showAnimeDetail(anime);
+              const modalBody = document.querySelector('.modal-body');
+              modalBody.innerHTML = animeDetail;
+            });
         });
       });
-    },
-    error: (e) => {
-      console.log(e.responseText);
-    },
-  });
+    });
 });
 
 function showCards(anime) {
