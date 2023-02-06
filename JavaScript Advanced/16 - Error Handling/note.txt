@@ -1,0 +1,9 @@
+Error Handling (Promise) :
+* then
+* catch
+
+Error Handling (Async Await) :
+* try
+* catch
+
+Error Handling (Fetch) ?
