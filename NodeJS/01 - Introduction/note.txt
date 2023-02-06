@@ -1,0 +1,60 @@
+- NodeJS : JS Runtime built on Chrome's V8 JS Engine | An asynchronous event-driven JS runtime, designed to build scalable network applications
+
+- Runtime : Dimana kita menjalankan / eksekusi kode kita
+
+- NodeJS :
+* Dibuat oleh Ryan Dahl 2009
+* Software Dev @ Joyent
+* github.com/ry
+* Ingin membuat web server menggunakan event loop, bukan menggunakan thread
+* Sudah mencoba menggunakan C, Lua, Haskell
+
+- NodeJS Access :
+* Memory
+* I/O
+* File System
+* Network
+* etc
+
+- Karakteristik NodeJS :
+1. Asynchronous & Event Driven
+2. Non-Blocking
+3. Single Threaded but Highly Scalable
+4. Cross Platform
+5. MIT License
+6. NPM
+
+- Fitur Utama NodeJS :
+1. File System
+2. Buffer
+3. Http & Https
+4. REPL (Read, Eval, Print, Loop)
+5. Console
+6. Crypto
+7. Zlib
+* https://nodejs.org/dist/latest-v14.x/docs/applications
+
+- NodeJS vs PHP
+1. Tahun Dibuat (2009 vs 1994)
+2. Engine (Google V8 Engine vs Zend Engine)
+3, Eksekusi code (Single-Thread, Synchronous vs Single-Thread, Asynchronous)
+4. Web Server (Berjalan di runtime sendiri vs Apache/IIS)
+5. Package Manager (NPM vs Composer)
+
+- NodeJS cocok untuk :
+1. Dynamic Single Page Application
+2. Realtime App (Chat, Multiplayer)
+3. API
+4. Streaming App 
+5. Microservices
+6. Command Line Tool
+7. MERN, MEAN, MEVN
+
+- Pre Requisite :
+* JS Dasar
+* JS Lanjutan (ES6)
+
+- System & Software Requirement
+* Windows / Linux / MacOS
+* Code Editor
+* Terminal / Command Prompt
