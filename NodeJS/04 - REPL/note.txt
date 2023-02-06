@@ -1,0 +1,23 @@
+- REPL : Read, Eval, Print, Loop
+
+- Global : access global variable
+
+- Global. double tab : list global method
+
+- .help : help
+
+- touch : create file
+
+- vi : code editor
+* i : insert mode
+* esc - :wq : save & exit
+
+- cat : read file
+
+.load : load JS file in REPL
+
+.save : save JS file in REPL
+
+.break / .clear : break multi line repl
+
+.editor : editor in REPL
