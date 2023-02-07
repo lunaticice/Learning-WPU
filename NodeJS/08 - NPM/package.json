@@ -1,0 +1,20 @@
+{
+  "name": "08---npm",
+  "version": "1.0.0",
+  "description": "Learn NPM",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "dev": "ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hengki Pranoto",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

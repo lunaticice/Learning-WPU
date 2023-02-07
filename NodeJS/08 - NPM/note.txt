@@ -1,0 +1,8 @@
+NPM : Node Package Manager
+
+npm run : run script
+npm i : install
+
+npm i [package]@[version] : install with specific version
+
+npm i --save-dev nodemon : install nodemon on dev
