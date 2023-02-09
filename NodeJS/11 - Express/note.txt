@@ -1,0 +1,32 @@
+expressjs.com
+
+- ExpressJS : Fast, unopinionated, minimalist web framework for NodeJS
+* Menyediakan antarmuka yang minimal untuk kakas yang diperlukan dalam membuat sebuah aplikasi web.
+* Membantu pengelolaan aliran data dari server ke aplikasi
+* MERN, MEAN, MEVN Stack
+* Diciptakan oleh TJ Holowaychuck, 22 Mei 2010
+
+- Fitur ExpressJS:
+* Menangani routing
+* MVC
+* Terintegrasi dengan view rendering engine, untuk mengelola template
+* Middleware
+
+- Unopinionated :
+* Tidak ada aturan baku untuk membuat sesuatu
+* Fleksibel
+* Menentukan sendiri struktur aplikasi
+* Bongkar pasang middleware
+
+- View / Template Engine :
+* Memungkinkan kita membuat file template statis untuk aplikasi kita
+* Engine tersebut mengganti variable pada template kita dengan nilai sebenarnya, lalu menampilkannya dalam bentuk HTML
+* Mempermudah pembuatan halaman HTML
+
+- EJS : Embedded JavaScript Template (ejs.co)
+* Simple Syntax
+* Simple Setup
+* Speedy Execution
+* Easy Debugging
+* Active Development
+* Awalnya dibuat oleh pembuat Express
