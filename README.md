@@ -4,7 +4,7 @@
 # In Progress Learning
 
 - SASS
-- JavaScript Advanced
+- NodeJS
 
 # Done Learning
 - HTML Dasar
@@ -14,3 +14,4 @@
 - Flexbox
 - JavaScript Dasar
 - JavaScript DOM
+- JavaScript Advanced
