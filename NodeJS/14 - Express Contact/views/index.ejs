@@ -1,0 +1,14 @@
+<h1>Web Server</h1>
+<h2>Hello <%= name %></h2>
+
+<h4>Character List :</h4>
+
+<% if (characters.length === 0) { %>
+<p>No characters found.</p>
+<% } else { %> <% characters.forEach(char => { %>
+<ul>
+  <li>Name: <%= char.name %></li>
+  <li>Race: <%= char.race %></li>
+  <li>Type: <%= char.type %></li>
+</ul>
+<% }) %> <% } %>
