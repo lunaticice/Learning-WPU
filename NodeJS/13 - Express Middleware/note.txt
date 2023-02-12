@@ -1,0 +1,15 @@
+- Middleware : Sebuah software yang menghubungkan software atau aplikasi lain | Sebuah software yang berada di antara OS dan aplikasi
+* Database
+* Web Server
+* Game Engine
+* Web Application
+
+- Express Middleware : Berisi serangkaian pemanggilan fungsi middleware
+* User Defined Middleware
+  > Application-level middleware
+  > Router-level middleware
+  > Error-handling middleware
+* Built-in middleware
+* Third party middleware
+
+- Fungsi Middleware : Sebuah fungsi yang memiliki akses ke object request, object response, dan fungsi middleware (next)
