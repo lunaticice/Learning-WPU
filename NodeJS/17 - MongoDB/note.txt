@@ -1,0 +1,26 @@
+- MongoDB : Humongous Database || Document database with the scalability and flexibility that you want with the querying and indexing that you need
+
+- NoSQL DB : Not Only SQL
+* Schemaless / Flexible Schema
+* Denormalization
+* Non-relational database
+* Unstructured, semi-structure, structured data
+
+- Tipe NoSQL DB :
+* Key-value store (Redis)
+* Document Based (MongoDB, CouchDB)
+* Column oriented DB (HBase, Cassandra)
+* Graph (Neo4j)
+
+- SQL vs NoSQL :
+* Table vs Collection
+* Row / Record vs Document
+* Column / Field vs Field
+
+- Konsep Embedded Document (Denormalization) 
+* Dokumen yang mempunyai additional field
+
+- Kenapa MongoDB ?
+* JSON / BSON (Binary JSON)
+* Javascript
+* MERN, MEVN, MEAN
