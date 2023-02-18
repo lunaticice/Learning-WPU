@@ -2,9 +2,7 @@
  Everything learned on Web Programming UNPAS YouTube Channel
 
 # In Progress Learning
-
 - SASS
-- NodeJS
 
 # Done Learning
 - HTML Dasar
@@ -15,3 +13,4 @@
 - JavaScript Dasar
 - JavaScript DOM
 - JavaScript Advanced
+- NodeJS
