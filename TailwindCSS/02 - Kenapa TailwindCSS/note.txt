@@ -1,0 +1,22 @@
+- Best practices don't actually work
+- CSS Utility Classes and Separation of Concerns
+- Separation of Concerns (Structure / HTML, Presentation / CSS, Behaviour / JS)
+
+- Phase 1 : Semantic CSS
+- Phase 2 : Decoupling styles from structures (BEM)
+- Phase 3 : Content-agnostic CSS Components(.card, .badge, etc)
+- Phase 4 : Content-agnostic CSS Components + Utility classes
+- Phase 5 : Utility-first Class
+
+- There are two ways you can write HTML & CSS 
+* Separation of Concerns (CSS yang bergantung pada HTML)
+> HTML restyleable
+> CSS not reusable
+
+* Mixing of Concerns (HTML yang bergantung pada CSS)
+> HTML not restyleable
+> CSS reusable 
+
+- The more a component does, or the more specific a component is, the harder it is to reuse
+
+- You should still create component, but built them utility-first
